@@ -61,3 +61,8 @@ x--;
 console.log(x);
 
 //Comparison Operators
+console.log(ageJonas > ageIsmail);
+console.log(ageJonas < ageIsmail);
+console.log(ageIsmail >= 18);
+
+//Operator Precedence

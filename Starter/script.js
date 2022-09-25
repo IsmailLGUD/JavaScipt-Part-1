@@ -17,8 +17,17 @@ console.log(javaScriptIsFun);
 
 console.log(typeof javaScriptIsFun);
 console.log(typeof 23);
-console.log(typeof 'Ismail');
+console.log(typeof "Ismail");
 
-
-javaScriptIsFun = "YES!"
+javaScriptIsFun = "YES!";
 console.log(typeof javaScriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 2000;
+console.log(typeof year);
+
+console.log(typeof null);
+

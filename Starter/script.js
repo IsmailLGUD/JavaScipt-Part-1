@@ -65,4 +65,38 @@ console.log(ageJonas > ageIsmail);
 console.log(ageJonas < ageIsmail);
 console.log(ageIsmail >= 18);
 
-//Operator Precedence
+//Coding Challenge 1
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+BMIMark = massMark / heightMark ** 2;
+console.log(`BMI of Mark is: ${BMIMark}`);
+BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(`BMI of John is: ${BMIJohn}`);
+
+if (BMIJohn > BMIMark) {
+  console.log(`John has the higher BMI!`);
+} else {
+  console.log(`Mark has the higher BMI!`);
+}
+
+const day = "friday";
+
+switch (day) {
+  case "monday":
+    console.log(`Today is monday`);
+    break;
+  case "friday":
+    console.log(`Today is friday!`);
+    break;
+  default:
+    console.log("Off day!");
+}
+
+const ageLimit = 16;
+ageLimit >= 18 ? console.log(`allow to vote!`) : console.log(`Not allowed!`);
+const vote = ageLimit >= 18 ? "vote" : "Not Vote!";
+console.log(vote);
+console.log(`I am Md. Ismail Hossain!`);
